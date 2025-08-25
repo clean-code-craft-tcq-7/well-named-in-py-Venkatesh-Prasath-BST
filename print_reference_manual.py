@@ -25,5 +25,5 @@ def form_reference_table(header_formatter, row_formatter):
     table_string = header_formatter()
     for i, major in enumerate(MAJOR_COLORS):
         for j, minor in enumerate(MINOR_COLORS):
-            table_string += row_formatter(color_index_pair_number(i, j), major, minor)    
+            table_string += row_formatter(color_index_pair_number(i, j), major, minor)
     return table_string
